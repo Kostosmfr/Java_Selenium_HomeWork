@@ -1,0 +1,6 @@
+pages\BasePage.class
+pages\ContainerPage.class
+pages\MinumumLifeInsurance.class
+TestProperties.class
+pages\TravelInsurance.class
+pages\MainPage.class
