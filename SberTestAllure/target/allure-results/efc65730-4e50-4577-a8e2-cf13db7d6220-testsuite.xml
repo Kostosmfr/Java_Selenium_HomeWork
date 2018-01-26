@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517000052560" stop="1517000059929" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TestAllure</name>
+    <test-cases>
+        <test-case start="1517000052576" stop="1517000059249" status="passed">
+            <name>testInsuranceAllure</name>
+            <title>Оформляем страховку</title>
+            <steps>
+                <step start="1517000052727" stop="1517000053114" status="passed">
+                    <name>selectElement[Застраховать себя]</name>
+                    <title>Навели курсор на элемент меню: Застраховать себя</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000053115" stop="1517000054283" status="passed">
+                    <name>waitElements[Страхование путешественников]</name>
+                    <title>Ожидаем элемент Страхование путешественников</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000054284" stop="1517000056033" status="passed">
+                    <name>clickToElement[Страхование путешественников]</name>
+                    <title>Нажали на элемент Страхование путешественников</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000056033" stop="1517000056305" status="passed">
+                    <name>checkHeader[Страхование путешественников]</name>
+                    <title>Проверить наличие на странице заголовка – Страхование путешественников</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000056306" stop="1517000056548" status="passed">
+                    <name>issue[Оформление]</name>
+                    <title>Нажимаем на оформление Оформление</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000056549" stop="1517000056575" status="passed">
+                    <name>swithTab</name>
+                    <title>Переходим на соседнюю вкладку</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000056576" stop="1517000057674" status="passed">
+                    <name>waitTarif[Минимальная]</name>
+                    <title>Ожидаем элемент Минимальная</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000057675" stop="1517000057725" status="passed">
+                    <name>choiceTarif[Минимальная]</name>
+                    <title>Выбираем тариф Минимальная</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000057725" stop="1517000057867" status="passed">
+                    <name>issue[Оформить]</name>
+                    <title>Нажимаем на кнопку Оформить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000057868" stop="1517000058943" status="passed">
+                    <name>fullFields[{Номер=196196, Имя=Василиса, Имя / Given names=Georgy, Фамилия=Иванова, Кем выдан=Кем то, Серия=4511, Дата ро...]</name>
+                    <title>Заполнение полей:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517000057873" stop="1517000058014" status="passed">
+                            <name>fillElement[Номер, 196196]</name>
+                            <title>Заполняем элемент 'Номер' значением '196196'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058014" stop="1517000058097" status="passed">
+                            <name>fillElement[Имя, Василиса]</name>
+                            <title>Заполняем элемент 'Имя' значением 'Василиса'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058098" stop="1517000058170" status="passed">
+                            <name>fillElement[Имя / Given names, Georgy]</name>
+                            <title>Заполняем элемент 'Имя / Given names' значением 'Georgy'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058170" stop="1517000058243" status="passed">
+                            <name>fillElement[Фамилия, Иванова]</name>
+                            <title>Заполняем элемент 'Фамилия' значением 'Иванова'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058243" stop="1517000058308" status="passed">
+                            <name>fillElement[Кем выдан, Кем то]</name>
+                            <title>Заполняем элемент 'Кем выдан' значением 'Кем то'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058308" stop="1517000058378" status="passed">
+                            <name>fillElement[Серия, 4511]</name>
+                            <title>Заполняем элемент 'Серия' значением '4511'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058378" stop="1517000058515" status="passed">
+                            <name>fillElement[Дата рождения застрахованного, 15.01.1984]</name>
+                            <title>Заполняем элемент 'Дата рождения застрахованного' значением '15.01.1984'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058515" stop="1517000058628" status="passed">
+                            <name>fillElement[Фамилия /Surname, Ivanov]</name>
+                            <title>Заполняем элемент 'Фамилия /Surname' значением 'Ivanov'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058628" stop="1517000058717" status="passed">
+                            <name>fillElement[Отчество, Марковна]</name>
+                            <title>Заполняем элемент 'Отчество' значением 'Марковна'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058718" stop="1517000058835" status="passed">
+                            <name>fillElement[Дата рождения, 26.06.1954]</name>
+                            <title>Заполняем элемент 'Дата рождения' значением '26.06.1954'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000058836" stop="1517000058943" status="passed">
+                            <name>fillElement[Дата выдачи, 05.02.1994]</name>
+                            <title>Заполняем элемент 'Дата выдачи' значением '05.02.1994'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517000058943" stop="1517000059021" status="passed">
+                    <name>sex[женский]</name>
+                    <title>Выбираем пол женский</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000059021" stop="1517000059164" status="passed">
+                    <name>checkFullFields[{Номер=196196, Имя=Василиса, Имя / Given names=Georgy, Фамилия=Иванова, Кем выдан=Кем то, Серия=4511, Да...]</name>
+                    <title>Поля заполнены следующими данными:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517000059024" stop="1517000059037" status="passed">
+                            <name>checkFullField[Номер, 196196]</name>
+                            <title>Поле 'Номер' заполнено значением '196196'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059038" stop="1517000059052" status="passed">
+                            <name>checkFullField[Имя, Василиса]</name>
+                            <title>Поле 'Имя' заполнено значением 'Василиса'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059052" stop="1517000059064" status="passed">
+                            <name>checkFullField[Имя / Given names, Georgy]</name>
+                            <title>Поле 'Имя / Given names' заполнено значением 'Georgy'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059065" stop="1517000059077" status="passed">
+                            <name>checkFullField[Фамилия, Иванова]</name>
+                            <title>Поле 'Фамилия' заполнено значением 'Иванова'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059077" stop="1517000059089" status="passed">
+                            <name>checkFullField[Кем выдан, Кем то]</name>
+                            <title>Поле 'Кем выдан' заполнено значением 'Кем то'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059089" stop="1517000059102" status="passed">
+                            <name>checkFullField[Серия, 4511]</name>
+                            <title>Поле 'Серия' заполнено значением '4511'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059103" stop="1517000059115" status="passed">
+                            <name>checkFullField[Дата рождения застрахованного, 15.01.1984]</name>
+                            <title>Поле 'Дата рождения застрахованного' заполнено значением '15.01.1984'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059115" stop="1517000059126" status="passed">
+                            <name>checkFullField[Фамилия /Surname, Ivanov]</name>
+                            <title>Поле 'Фамилия /Surname' заполнено значением 'Ivanov'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059126" stop="1517000059139" status="passed">
+                            <name>checkFullField[Отчество, Марковна]</name>
+                            <title>Поле 'Отчество' заполнено значением 'Марковна'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059139" stop="1517000059152" status="passed">
+                            <name>checkFullField[Дата рождения, 26.06.1954]</name>
+                            <title>Поле 'Дата рождения' заполнено значением '26.06.1954'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517000059152" stop="1517000059164" status="passed">
+                            <name>checkFullField[Дата выдачи, 05.02.1994]</name>
+                            <title>Поле 'Дата выдачи' заполнено значением '05.02.1994'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517000059164" stop="1517000059218" status="passed">
+                    <name>clickIssue</name>
+                    <title>Нажимаем на оформление</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517000059219" stop="1517000059247" status="passed">
+                    <name>checkErrorMessage[Заполнены не все обязательные поля]</name>
+                    <title>Проверяем сообщение об ошибке</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-0VHSU5RKDMC"/>
+                <label name="thread" value="6356@WIN-0VHSU5RKDMC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

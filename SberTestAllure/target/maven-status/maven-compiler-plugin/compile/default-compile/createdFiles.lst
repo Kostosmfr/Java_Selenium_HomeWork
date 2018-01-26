@@ -1,0 +1,12 @@
+steps\ContainerPageSteps.class
+pages\BasePage.class
+pages\MinumumLifeInsurance.class
+steps\MinimumLifiInsuranceSteps.class
+steps\TravelInsuranceSteps.class
+util\TestProperties.class
+steps\MainPageSteps.class
+pages\ContainerPage.class
+util\AllureListener.class
+steps\BaseSteps.class
+pages\TravelInsurance.class
+pages\MainPage.class

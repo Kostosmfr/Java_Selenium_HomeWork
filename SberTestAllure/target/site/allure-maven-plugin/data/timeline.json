@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "WIN-0VHSU5RKDMC",
+    "threads" : [ {
+      "title" : "6356@WIN-0VHSU5RKDMC.main(1)",
+      "testCases" : [ {
+        "uid" : "77a62456d8bb24f5",
+        "name" : "testInsuranceAllure",
+        "title" : "Оформляем страховку",
+        "time" : {
+          "start" : 1517000052576,
+          "stop" : 1517000059249,
+          "duration" : 6673
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
