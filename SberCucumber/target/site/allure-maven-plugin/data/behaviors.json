@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Страхование Путешественников",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "54e99cd539da1cc8",
+      "title" : "Проверка заполнения всех полей",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "201742a5b70572e3",
+        "name" : "Проверка заполнения всех полей",
+        "title" : "Проверка заполнения всех полей",
+        "time" : {
+          "start" : 1517251122138,
+          "stop" : 1517251138729,
+          "duration" : 16591
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

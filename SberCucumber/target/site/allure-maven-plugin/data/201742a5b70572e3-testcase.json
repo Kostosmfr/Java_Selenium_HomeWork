@@ -1,0 +1,776 @@
+{
+  "uid" : "201742a5b70572e3",
+  "name" : "Проверка заполнения всех полей",
+  "title" : "Проверка заполнения всех полей",
+  "time" : {
+    "start" : 1517251122138,
+    "stop" : 1517251138729,
+    "duration" : 16591
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 48
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "1b4a4169f5aeae6f",
+    "name" : "Страхование Путешественников",
+    "title" : "Страхование Путешественников"
+  },
+  "steps" : [ {
+    "name" : "Когда курсор переместили на элемент \"Застраховать себя\"",
+    "title" : "Когда курсор переместили на элемент \"Застраховать себя\"",
+    "time" : {
+      "start" : 1517251129777,
+      "stop" : 1517251130424,
+      "duration" : 647
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectElement[Застраховать себя]",
+      "title" : "Навели курсор на элемент меню: Застраховать себя",
+      "time" : {
+        "start" : 1517251130087,
+        "stop" : 1517251130423,
+        "duration" : 336
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И дождались элемента \"Страхование путешественников\"",
+    "title" : "И дождались элемента \"Страхование путешественников\"",
+    "time" : {
+      "start" : 1517251130424,
+      "stop" : 1517251131483,
+      "duration" : 1059
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "waitElements[Страхование путешественников]",
+      "title" : "Ожидаем элемент Страхование путешественников",
+      "time" : {
+        "start" : 1517251130426,
+        "stop" : 1517251131483,
+        "duration" : 1057
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажимаем на элемент \"Страхование путешественников\"",
+    "title" : "Тогда нажимаем на элемент \"Страхование путешественников\"",
+    "time" : {
+      "start" : 1517251131483,
+      "stop" : 1517251133306,
+      "duration" : 1823
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickToElement[Страхование путешественников]",
+      "title" : "Нажали на элемент Страхование путешественников",
+      "time" : {
+        "start" : 1517251131484,
+        "stop" : 1517251133305,
+        "duration" : 1821
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заголовок имеет лик \"Страхование путешественников\"",
+    "title" : "Когда заголовок имеет лик \"Страхование путешественников\"",
+    "time" : {
+      "start" : 1517251133306,
+      "stop" : 1517251133656,
+      "duration" : 350
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkHeader[Страхование путешественников]",
+      "title" : "Проверить наличие на странице заголовка – Страхование путешественников",
+      "time" : {
+        "start" : 1517251133307,
+        "stop" : 1517251133656,
+        "duration" : 349
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда кликаем на элемент \"Оформление\"",
+    "title" : "Тогда кликаем на элемент \"Оформление\"",
+    "time" : {
+      "start" : 1517251133656,
+      "stop" : 1517251133921,
+      "duration" : 265
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "issue[Оформление]",
+      "title" : "Нажимаем на оформление Оформление",
+      "time" : {
+        "start" : 1517251133657,
+        "stop" : 1517251133921,
+        "duration" : 264
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И переключаемся на соседнюю вкладку",
+    "title" : "И переключаемся на соседнюю вкладку",
+    "time" : {
+      "start" : 1517251133922,
+      "stop" : 1517251133942,
+      "duration" : 20
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "swithTab",
+      "title" : "Переходим на соседнюю вкладку",
+      "time" : {
+        "start" : 1517251133923,
+        "stop" : 1517251133942,
+        "duration" : 19
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда страница загрузится с интересующим нас тарифом \"Минимальная\"",
+    "title" : "Когда страница загрузится с интересующим нас тарифом \"Минимальная\"",
+    "time" : {
+      "start" : 1517251133942,
+      "stop" : 1517251135081,
+      "duration" : 1139
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "waitTarif[Минимальная]",
+      "title" : "Ожидаем элемент Минимальная",
+      "time" : {
+        "start" : 1517251133943,
+        "stop" : 1517251135081,
+        "duration" : 1138
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбираем тариф \"Минимальная\"",
+    "title" : "Тогда выбираем тариф \"Минимальная\"",
+    "time" : {
+      "start" : 1517251135082,
+      "stop" : 1517251135142,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "choiceTarif[Минимальная]",
+      "title" : "Выбираем тариф Минимальная",
+      "time" : {
+        "start" : 1517251135083,
+        "stop" : 1517251135141,
+        "duration" : 58
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажимаем на \"Оформить\"",
+    "title" : "И нажимаем на \"Оформить\"",
+    "time" : {
+      "start" : 1517251135142,
+      "stop" : 1517251135300,
+      "duration" : 158
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "issue[Оформить]",
+      "title" : "Нажимаем на кнопку Оформить",
+      "time" : {
+        "start" : 1517251135143,
+        "stop" : 1517251135300,
+        "duration" : 157
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517251135300,
+      "stop" : 1517251137361,
+      "duration" : 2061
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillElement[Фамилия /Surname, Ivanov]",
+      "title" : "Заполняем элемент 'Фамилия /Surname' значением 'Ivanov'",
+      "time" : {
+        "start" : 1517251135302,
+        "stop" : 1517251136387,
+        "duration" : 1085
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Имя / Given names, Georgy]",
+      "title" : "Заполняем элемент 'Имя / Given names' значением 'Georgy'",
+      "time" : {
+        "start" : 1517251136388,
+        "stop" : 1517251136464,
+        "duration" : 76
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Дата рождения застрахованного, 15.01.1984]",
+      "title" : "Заполняем элемент 'Дата рождения застрахованного' значением '15.01.1984'",
+      "time" : {
+        "start" : 1517251136464,
+        "stop" : 1517251136622,
+        "duration" : 158
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Фамилия, Иванова]",
+      "title" : "Заполняем элемент 'Фамилия' значением 'Иванова'",
+      "time" : {
+        "start" : 1517251136623,
+        "stop" : 1517251136707,
+        "duration" : 84
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Имя, Василиса]",
+      "title" : "Заполняем элемент 'Имя' значением 'Василиса'",
+      "time" : {
+        "start" : 1517251136708,
+        "stop" : 1517251136807,
+        "duration" : 99
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Отчество, Марковна]",
+      "title" : "Заполняем элемент 'Отчество' значением 'Марковна'",
+      "time" : {
+        "start" : 1517251136808,
+        "stop" : 1517251136889,
+        "duration" : 81
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Дата рождения, 26.06.1954]",
+      "title" : "Заполняем элемент 'Дата рождения' значением '26.06.1954'",
+      "time" : {
+        "start" : 1517251136889,
+        "stop" : 1517251136996,
+        "duration" : 107
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Серия, 4511]",
+      "title" : "Заполняем элемент 'Серия' значением '4511'",
+      "time" : {
+        "start" : 1517251136997,
+        "stop" : 1517251137075,
+        "duration" : 78
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Номер, 196196]",
+      "title" : "Заполняем элемент 'Номер' значением '196196'",
+      "time" : {
+        "start" : 1517251137075,
+        "stop" : 1517251137158,
+        "duration" : 83
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Дата выдачи, 05.02.1994]",
+      "title" : "Заполняем элемент 'Дата выдачи' значением '05.02.1994'",
+      "time" : {
+        "start" : 1517251137158,
+        "stop" : 1517251137284,
+        "duration" : 126
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillElement[Кем выдан, Кем то]",
+      "title" : "Заполняем элемент 'Кем выдан' значением 'Кем то'",
+      "time" : {
+        "start" : 1517251137285,
+        "stop" : 1517251137361,
+        "duration" : 76
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран пол \"женский\"",
+    "title" : "И выбран пол \"женский\"",
+    "time" : {
+      "start" : 1517251137361,
+      "stop" : 1517251137440,
+      "duration" : 79
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "sex[женский]",
+      "title" : "Выбираем пол женский",
+      "time" : {
+        "start" : 1517251137361,
+        "stop" : 1517251137440,
+        "duration" : 79
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда значения полей равны:",
+    "title" : "Тогда значения полей равны:",
+    "time" : {
+      "start" : 1517251137441,
+      "stop" : 1517251137586,
+      "duration" : 145
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkFullField[Фамилия /Surname, Ivanov]",
+      "title" : "Поле 'Фамилия /Surname' заполнено значением 'Ivanov'",
+      "time" : {
+        "start" : 1517251137441,
+        "stop" : 1517251137454,
+        "duration" : 13
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Имя / Given names, Georgy]",
+      "title" : "Поле 'Имя / Given names' заполнено значением 'Georgy'",
+      "time" : {
+        "start" : 1517251137454,
+        "stop" : 1517251137465,
+        "duration" : 11
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Дата рождения застрахованного, 15.01.1984]",
+      "title" : "Поле 'Дата рождения застрахованного' заполнено значением '15.01.1984'",
+      "time" : {
+        "start" : 1517251137465,
+        "stop" : 1517251137478,
+        "duration" : 13
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Фамилия, Иванова]",
+      "title" : "Поле 'Фамилия' заполнено значением 'Иванова'",
+      "time" : {
+        "start" : 1517251137478,
+        "stop" : 1517251137490,
+        "duration" : 12
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Имя, Василиса]",
+      "title" : "Поле 'Имя' заполнено значением 'Василиса'",
+      "time" : {
+        "start" : 1517251137491,
+        "stop" : 1517251137503,
+        "duration" : 12
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Отчество, Марковна]",
+      "title" : "Поле 'Отчество' заполнено значением 'Марковна'",
+      "time" : {
+        "start" : 1517251137503,
+        "stop" : 1517251137516,
+        "duration" : 13
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Дата рождения, 26.06.1954]",
+      "title" : "Поле 'Дата рождения' заполнено значением '26.06.1954'",
+      "time" : {
+        "start" : 1517251137517,
+        "stop" : 1517251137529,
+        "duration" : 12
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Серия, 4511]",
+      "title" : "Поле 'Серия' заполнено значением '4511'",
+      "time" : {
+        "start" : 1517251137530,
+        "stop" : 1517251137543,
+        "duration" : 13
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Номер, 196196]",
+      "title" : "Поле 'Номер' заполнено значением '196196'",
+      "time" : {
+        "start" : 1517251137543,
+        "stop" : 1517251137560,
+        "duration" : 17
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Дата выдачи, 05.02.1994]",
+      "title" : "Поле 'Дата выдачи' заполнено значением '05.02.1994'",
+      "time" : {
+        "start" : 1517251137560,
+        "stop" : 1517251137572,
+        "duration" : 12
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Кем выдан, Кем то]",
+      "title" : "Поле 'Кем выдан' заполнено значением 'Кем то'",
+      "time" : {
+        "start" : 1517251137573,
+        "stop" : 1517251137586,
+        "duration" : 13
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда оформляем",
+    "title" : "Когда оформляем",
+    "time" : {
+      "start" : 1517251137586,
+      "stop" : 1517251137641,
+      "duration" : 55
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickIssue",
+      "title" : "Нажимаем на оформление",
+      "time" : {
+        "start" : 1517251137586,
+        "stop" : 1517251137641,
+        "duration" : 55
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверяем на наличие ошибки \"Заполнены не все обязательные поля\"",
+    "title" : "Тогда проверяем на наличие ошибки \"Заполнены не все обязательные поля\"",
+    "time" : {
+      "start" : 1517251137641,
+      "stop" : 1517251137671,
+      "duration" : 30
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkErrorMessage[Заполнены не все обязательные поля]",
+      "title" : "Проверяем сообщение об ошибке",
+      "time" : {
+        "start" : 1517251137642,
+        "stop" : 1517251137671,
+        "duration" : 29
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-0VHSU5RKDMC"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "5276@WIN-0VHSU5RKDMC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Страхование Путешественников"
+  }, {
+    "name" : "story",
+    "value" : "Проверка заполнения всех полей"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование Путешественников"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

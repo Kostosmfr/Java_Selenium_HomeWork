@@ -1,0 +1,13 @@
+pages\BasePage.class
+steps\TravelInsuranceSteps.class
+util\TestProperties.class
+util\AllureReporter.class
+pages\ContainerPage.class
+steps\BaseSteps.class
+pages\TravelInsurance.class
+pages\MainPage.class
+steps\ContainerPageSteps.class
+steps\ScenarioStep.class
+pages\MinumumLifeInsurance.class
+steps\MinimumLifiInsuranceSteps.class
+steps\MainPageSteps.class

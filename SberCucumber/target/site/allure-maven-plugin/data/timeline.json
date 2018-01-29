@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "WIN-0VHSU5RKDMC",
+    "threads" : [ {
+      "title" : "5276@WIN-0VHSU5RKDMC.main(1)",
+      "testCases" : [ {
+        "uid" : "201742a5b70572e3",
+        "name" : "Проверка заполнения всех полей",
+        "title" : "Проверка заполнения всех полей",
+        "time" : {
+          "start" : 1517251122138,
+          "stop" : 1517251138729,
+          "duration" : 16591
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
