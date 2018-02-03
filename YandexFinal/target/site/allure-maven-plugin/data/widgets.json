@@ -1,0 +1,75 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1517691861280,
+        "stop" : 1517691901865,
+        "duration" : 40585
+      }
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "uid" : "f37ba8bd2874c57e",
+        "title" : "Наушники",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "45dfbb1f641d376d",
+        "title" : "Телевизоры",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "Наушники",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Телевизоры",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

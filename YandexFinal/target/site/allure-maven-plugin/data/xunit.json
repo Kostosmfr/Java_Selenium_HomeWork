@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1517691861280,
+    "stop" : 1517691901865,
+    "duration" : 40585
+  },
+  "testSuites" : [ {
+    "uid" : "f37ba8bd2874c57e",
+    "name" : "Наушники",
+    "title" : "Наушники",
+    "time" : {
+      "start" : 1517691861280,
+      "stop" : 1517691884662,
+      "duration" : 23382
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "53e3fe98f3a959a8",
+      "name" : "Проверка чего то",
+      "title" : "Проверка чего то",
+      "time" : {
+        "start" : 1517691861280,
+        "stop" : 1517691884662,
+        "duration" : 23382
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "45dfbb1f641d376d",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517691884868,
+      "stop" : 1517691901865,
+      "duration" : 16997
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9b96a385b932fd36",
+      "name" : "Проверка поиска",
+      "title" : "Проверка поиска",
+      "time" : {
+        "start" : 1517691884868,
+        "stop" : 1517691901865,
+        "duration" : 16997
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

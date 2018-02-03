@@ -1,0 +1,506 @@
+{
+  "uid" : "53e3fe98f3a959a8",
+  "name" : "Проверка чего то",
+  "title" : "Проверка чего то",
+  "time" : {
+    "start" : 1517691861280,
+    "stop" : 1517691884662,
+    "duration" : 23382
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 30
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f37ba8bd2874c57e",
+    "name" : "Наушники",
+    "title" : "Наушники"
+  },
+  "steps" : [ {
+    "name" : "Когда нажимаем на таб \"Маркет\"",
+    "title" : "Когда нажимаем на таб \"Маркет\"",
+    "time" : {
+      "start" : 1517691868306,
+      "stop" : 1517691870932,
+      "duration" : 2626
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickToTab[Маркет]",
+      "title" : "Нажимаем на таб Маркет",
+      "time" : {
+        "start" : 1517691868533,
+        "stop" : 1517691870932,
+        "duration" : 2399
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда избавляемся от геолокации нажатием на \"Электроника\"",
+    "title" : "Когда избавляемся от геолокации нажатием на \"Электроника\"",
+    "time" : {
+      "start" : 1517691870932,
+      "stop" : 1517691872660,
+      "duration" : 1728
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickOutOfGeo[Электроника]",
+      "title" : "Кликаем чтобы избавится от геолокации",
+      "time" : {
+        "start" : 1517691870933,
+        "stop" : 1517691872660,
+        "duration" : 1727
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда наводим курсор на меню \"Электроника\"",
+    "title" : "Когда наводим курсор на меню \"Электроника\"",
+    "time" : {
+      "start" : 1517691872661,
+      "stop" : 1517691873255,
+      "duration" : 594
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "moveCursorToTopMenu[Электроника]",
+      "title" : "Наводим курсор на меню Электроника",
+      "time" : {
+        "start" : 1517691872663,
+        "stop" : 1517691873255,
+        "duration" : 592
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И ожидаем элемент \"Наушники\"",
+    "title" : "И ожидаем элемент \"Наушники\"",
+    "time" : {
+      "start" : 1517691873255,
+      "stop" : 1517691873313,
+      "duration" : 58
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "waitSubWrapMenuElement[Наушники]",
+      "title" : "Ожидаем элемент Наушники",
+      "time" : {
+        "start" : 1517691873256,
+        "stop" : 1517691873313,
+        "duration" : 57
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда переходим на категорию \"Наушники\"",
+    "title" : "Когда переходим на категорию \"Наушники\"",
+    "time" : {
+      "start" : 1517691873313,
+      "stop" : 1517691875471,
+      "duration" : 2158
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickToCategory[Наушники]",
+      "title" : "Переходим на категорию Наушники",
+      "time" : {
+        "start" : 1517691873314,
+        "stop" : 1517691875471,
+        "duration" : 2157
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажимаем на фильтр \"Расширенный фильтр\"",
+    "title" : "Тогда нажимаем на фильтр \"Расширенный фильтр\"",
+    "time" : {
+      "start" : 1517691875471,
+      "stop" : 1517691877163,
+      "duration" : 1692
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickFilter[Расширенный фильтр]",
+      "title" : "Нажимаем на расширенный фильтр",
+      "time" : {
+        "start" : 1517691875472,
+        "stop" : 1517691877163,
+        "duration" : 1691
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняем поле \"Цена от\" значением \"5000\"",
+    "title" : "Когда заполняем поле \"Цена от\" значением \"5000\"",
+    "time" : {
+      "start" : 1517691877163,
+      "stop" : 1517691877260,
+      "duration" : 97
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "inputBoxFill[Цена от, 5000]",
+      "title" : "Заполняем поле Цена от значением 5000",
+      "time" : {
+        "start" : 1517691877164,
+        "stop" : 1517691877260,
+        "duration" : 96
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбираем параметры фильтра \"Beats\"",
+    "title" : "И выбираем параметры фильтра \"Beats\"",
+    "time" : {
+      "start" : 1517691877260,
+      "stop" : 1517691877377,
+      "duration" : 117
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "choiceCheckBox[Beats]",
+      "title" : "Выбираем параметры(CheckBox) Beats",
+      "time" : {
+        "start" : 1517691877261,
+        "stop" : 1517691877376,
+        "duration" : 115
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажимаем на кнопку \"Показать подходящие\"",
+    "title" : "Тогда нажимаем на кнопку \"Показать подходящие\"",
+    "time" : {
+      "start" : 1517691877377,
+      "stop" : 1517691879461,
+      "duration" : 2084
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickButtonText[Показать подходящие]",
+      "title" : "Нажать на кнопку с текстом Показать подходящие",
+      "time" : {
+        "start" : 1517691877377,
+        "stop" : 1517691879461,
+        "duration" : 2084
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда сравниваем количество товаров для наушников на странице, ожидаем \"12\"",
+    "title" : "Когда сравниваем количество товаров для наушников на странице, ожидаем \"12\"",
+    "time" : {
+      "start" : 1517691879461,
+      "stop" : 1517691879487,
+      "duration" : 26
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkCountProductOnPage[12]",
+      "title" : "Сравниваем на количество товаров на странице. Ожидаем 12",
+      "time" : {
+        "start" : 1517691879463,
+        "stop" : 1517691879487,
+        "duration" : 24
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда вытаскиваем название наушников под номером \"0\" из списка",
+    "title" : "Тогда вытаскиваем название наушников под номером \"0\" из списка",
+    "time" : {
+      "start" : 1517691879488,
+      "stop" : 1517691879548,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getNameEarPhone[0]",
+      "title" : "Вытаскаваем название из списка под номером 0(отсчет с 0)",
+      "time" : {
+        "start" : 1517691879488,
+        "stop" : 1517691879547,
+        "duration" : 59
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда ищем отдельно по названию наушников",
+    "title" : "Тогда ищем отдельно по названию наушников",
+    "time" : {
+      "start" : 1517691879548,
+      "stop" : 1517691879871,
+      "duration" : 323
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "sendKeyInputSearch",
+      "title" : "Вводим значение в поиск",
+      "time" : {
+        "start" : 1517691879548,
+        "stop" : 1517691879871,
+        "duration" : 323
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажимаем поиск для наушников",
+    "title" : "И нажимаем поиск для наушников",
+    "time" : {
+      "start" : 1517691879871,
+      "stop" : 1517691879962,
+      "duration" : 91
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickSearchButton",
+      "title" : "Нажимаем поиск",
+      "time" : {
+        "start" : 1517691879872,
+        "stop" : 1517691879961,
+        "duration" : 89
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда переходим на первые наушники по списку",
+    "title" : "Когда переходим на первые наушники по списку",
+    "time" : {
+      "start" : 1517691879962,
+      "stop" : 1517691883887,
+      "duration" : 3925
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickFirstEarPhone",
+      "title" : "переход на первые наушники",
+      "time" : {
+        "start" : 1517691879962,
+        "stop" : 1517691883887,
+        "duration" : 3925
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверяем на совпадение названия наушников",
+    "title" : "Тогда проверяем на совпадение названия наушников",
+    "time" : {
+      "start" : 1517691883888,
+      "stop" : 1517691883980,
+      "duration" : 92
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkProductTitle",
+      "title" : "Проверяем на совпадаение товара",
+      "time" : {
+        "start" : 1517691883888,
+        "stop" : 1517691883979,
+        "duration" : 91
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-0VHSU5RKDMC"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "6760@WIN-0VHSU5RKDMC.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Проверка чего то"
+  }, {
+    "name" : "feature",
+    "value" : "Наушники"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Наушники"
+  } ],
+  "parameters" : [ ]
+}

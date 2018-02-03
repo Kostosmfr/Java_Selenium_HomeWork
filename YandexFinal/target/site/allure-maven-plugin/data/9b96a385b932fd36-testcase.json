@@ -1,0 +1,476 @@
+{
+  "uid" : "9b96a385b932fd36",
+  "name" : "Проверка поиска",
+  "title" : "Проверка поиска",
+  "time" : {
+    "start" : 1517691884868,
+    "stop" : 1517691901865,
+    "duration" : 16997
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 28
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "45dfbb1f641d376d",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры"
+  },
+  "steps" : [ {
+    "name" : "Когда нажимаем на таб \"Маркет\"",
+    "title" : "Когда нажимаем на таб \"Маркет\"",
+    "time" : {
+      "start" : 1517691890509,
+      "stop" : 1517691892129,
+      "duration" : 1620
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickToTab[Маркет]",
+      "title" : "Нажимаем на таб Маркет",
+      "time" : {
+        "start" : 1517691890510,
+        "stop" : 1517691892129,
+        "duration" : 1619
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда наводим курсор на меню \"Электроника\"",
+    "title" : "Когда наводим курсор на меню \"Электроника\"",
+    "time" : {
+      "start" : 1517691892129,
+      "stop" : 1517691892674,
+      "duration" : 545
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "moveCursorToTopMenu[Электроника]",
+      "title" : "Наводим курсор на меню Электроника",
+      "time" : {
+        "start" : 1517691892130,
+        "stop" : 1517691892674,
+        "duration" : 544
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И ожидаем элемент \"Телевизоры\"",
+    "title" : "И ожидаем элемент \"Телевизоры\"",
+    "time" : {
+      "start" : 1517691892674,
+      "stop" : 1517691892719,
+      "duration" : 45
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "waitSubWrapMenuElement[Телевизоры]",
+      "title" : "Ожидаем элемент Телевизоры",
+      "time" : {
+        "start" : 1517691892674,
+        "stop" : 1517691892718,
+        "duration" : 44
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда переходим на категорию \"Телевизоры\"",
+    "title" : "Когда переходим на категорию \"Телевизоры\"",
+    "time" : {
+      "start" : 1517691892719,
+      "stop" : 1517691894767,
+      "duration" : 2048
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickToCategory[Телевизоры]",
+      "title" : "Переходим на категорию Телевизоры",
+      "time" : {
+        "start" : 1517691892719,
+        "stop" : 1517691894767,
+        "duration" : 2048
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажимаем на фильтр \"Расширенный фильтр\"",
+    "title" : "Тогда нажимаем на фильтр \"Расширенный фильтр\"",
+    "time" : {
+      "start" : 1517691894767,
+      "stop" : 1517691896455,
+      "duration" : 1688
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickFilter[Расширенный фильтр]",
+      "title" : "Нажимаем на расширенный фильтр",
+      "time" : {
+        "start" : 1517691894767,
+        "stop" : 1517691896455,
+        "duration" : 1688
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняем поле \"Цена от\" значением \"20000\"",
+    "title" : "Когда заполняем поле \"Цена от\" значением \"20000\"",
+    "time" : {
+      "start" : 1517691896455,
+      "stop" : 1517691896575,
+      "duration" : 120
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "inputBoxFill[Цена от, 20000]",
+      "title" : "Заполняем поле Цена от значением 20000",
+      "time" : {
+        "start" : 1517691896456,
+        "stop" : 1517691896575,
+        "duration" : 119
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбираем параметры фильтра \"LG\"",
+    "title" : "И выбираем параметры фильтра \"LG\"",
+    "time" : {
+      "start" : 1517691896576,
+      "stop" : 1517691896698,
+      "duration" : 122
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "choiceCheckBox[LG]",
+      "title" : "Выбираем параметры(CheckBox) LG",
+      "time" : {
+        "start" : 1517691896576,
+        "stop" : 1517691896698,
+        "duration" : 122
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбираем параметры фильтра \"Samsung\"",
+    "title" : "И выбираем параметры фильтра \"Samsung\"",
+    "time" : {
+      "start" : 1517691896699,
+      "stop" : 1517691896823,
+      "duration" : 124
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "choiceCheckBox[Samsung]",
+      "title" : "Выбираем параметры(CheckBox) Samsung",
+      "time" : {
+        "start" : 1517691896699,
+        "stop" : 1517691896823,
+        "duration" : 124
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажимаем на кнопку \"Показать подходящие\"",
+    "title" : "Тогда нажимаем на кнопку \"Показать подходящие\"",
+    "time" : {
+      "start" : 1517691896824,
+      "stop" : 1517691898568,
+      "duration" : 1744
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickButtonText[Показать подходящие]",
+      "title" : "Нажать на кнопку с текстом Показать подходящие",
+      "time" : {
+        "start" : 1517691896824,
+        "stop" : 1517691898568,
+        "duration" : 1744
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда сравниваем количество товаров на странице, ожидаем \"12\"",
+    "title" : "Когда сравниваем количество товаров на странице, ожидаем \"12\"",
+    "time" : {
+      "start" : 1517691898569,
+      "stop" : 1517691898586,
+      "duration" : 17
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkCountProductOnPage[12]",
+      "title" : "Сравниваем на количество товаров на странице. Ожидаем 12",
+      "time" : {
+        "start" : 1517691898570,
+        "stop" : 1517691898586,
+        "duration" : 16
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда вытаскиваем название телевизора под номером \"0\" из списка",
+    "title" : "Тогда вытаскиваем название телевизора под номером \"0\" из списка",
+    "time" : {
+      "start" : 1517691898586,
+      "stop" : 1517691898609,
+      "duration" : 23
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getNameTv[0]",
+      "title" : "Вытаскаваем название из списка под номером 0(отсчет с 0)",
+      "time" : {
+        "start" : 1517691898586,
+        "stop" : 1517691898609,
+        "duration" : 23
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И ищем отдельно по названию телевизора",
+    "title" : "И ищем отдельно по названию телевизора",
+    "time" : {
+      "start" : 1517691898610,
+      "stop" : 1517691898732,
+      "duration" : 122
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "sendKeyInputSearch",
+      "title" : "Вводим значение в поиск",
+      "time" : {
+        "start" : 1517691898610,
+        "stop" : 1517691898732,
+        "duration" : 122
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажимаем поиск для телика",
+    "title" : "Тогда нажимаем поиск для телика",
+    "time" : {
+      "start" : 1517691898732,
+      "stop" : 1517691898805,
+      "duration" : 73
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickSearchButton",
+      "title" : "Нажимаем поиск",
+      "time" : {
+        "start" : 1517691898733,
+        "stop" : 1517691898805,
+        "duration" : 72
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверяем на совпадение названия телевизора",
+    "title" : "Тогда проверяем на совпадение названия телевизора",
+    "time" : {
+      "start" : 1517691898805,
+      "stop" : 1517691901212,
+      "duration" : 2407
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkProductTitle",
+      "title" : "Проверяем на совпадаение товара",
+      "time" : {
+        "start" : 1517691898806,
+        "stop" : 1517691901212,
+        "duration" : 2406
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-0VHSU5RKDMC"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "feature",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "thread",
+    "value" : "6760@WIN-0VHSU5RKDMC.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Проверка поиска"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

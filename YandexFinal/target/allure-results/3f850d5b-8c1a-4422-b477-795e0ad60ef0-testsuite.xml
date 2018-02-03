@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517691861264" stop="1517691884662" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Наушники</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517691861280" stop="1517691884662" status="passed">
+            <name>Проверка чего то</name>
+            <title>Проверка чего то</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1517691868306" stop="1517691870932" status="passed">
+                    <name>Когда нажимаем на таб "Маркет"</name>
+                    <title>Когда нажимаем на таб "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691868533" stop="1517691870932" status="passed">
+                            <name>clickToTab[Маркет]</name>
+                            <title>Нажимаем на таб Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691870932" stop="1517691872660" status="passed">
+                    <name>Когда избавляемся от геолокации нажатием на "Электроника"</name>
+                    <title>Когда избавляемся от геолокации нажатием на "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691870933" stop="1517691872660" status="passed">
+                            <name>clickOutOfGeo[Электроника]</name>
+                            <title>Кликаем чтобы избавится от геолокации</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691872661" stop="1517691873255" status="passed">
+                    <name>Когда наводим курсор на меню "Электроника"</name>
+                    <title>Когда наводим курсор на меню "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691872663" stop="1517691873255" status="passed">
+                            <name>moveCursorToTopMenu[Электроника]</name>
+                            <title>Наводим курсор на меню Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691873255" stop="1517691873313" status="passed">
+                    <name>И ожидаем элемент "Наушники"</name>
+                    <title>И ожидаем элемент "Наушники"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691873256" stop="1517691873313" status="passed">
+                            <name>waitSubWrapMenuElement[Наушники]</name>
+                            <title>Ожидаем элемент Наушники</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691873313" stop="1517691875471" status="passed">
+                    <name>Когда переходим на категорию "Наушники"</name>
+                    <title>Когда переходим на категорию "Наушники"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691873314" stop="1517691875471" status="passed">
+                            <name>clickToCategory[Наушники]</name>
+                            <title>Переходим на категорию Наушники</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691875471" stop="1517691877163" status="passed">
+                    <name>Тогда нажимаем на фильтр "Расширенный фильтр"</name>
+                    <title>Тогда нажимаем на фильтр "Расширенный фильтр"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691875472" stop="1517691877163" status="passed">
+                            <name>clickFilter[Расширенный фильтр]</name>
+                            <title>Нажимаем на расширенный фильтр</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691877163" stop="1517691877260" status="passed">
+                    <name>Когда заполняем поле "Цена от" значением "5000"</name>
+                    <title>Когда заполняем поле "Цена от" значением "5000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691877164" stop="1517691877260" status="passed">
+                            <name>inputBoxFill[Цена от, 5000]</name>
+                            <title>Заполняем поле Цена от значением 5000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691877260" stop="1517691877377" status="passed">
+                    <name>И выбираем параметры фильтра "Beats"</name>
+                    <title>И выбираем параметры фильтра "Beats"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691877261" stop="1517691877376" status="passed">
+                            <name>choiceCheckBox[Beats]</name>
+                            <title>Выбираем параметры(CheckBox) Beats</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691877377" stop="1517691879461" status="passed">
+                    <name>Тогда нажимаем на кнопку "Показать подходящие"</name>
+                    <title>Тогда нажимаем на кнопку "Показать подходящие"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691877377" stop="1517691879461" status="passed">
+                            <name>clickButtonText[Показать подходящие]</name>
+                            <title>Нажать на кнопку с текстом Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691879461" stop="1517691879487" status="passed">
+                    <name>Когда сравниваем количество товаров для наушников на странице, ожидаем "12"</name>
+                    <title>Когда сравниваем количество товаров для наушников на странице, ожидаем "12"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691879463" stop="1517691879487" status="passed">
+                            <name>checkCountProductOnPage[12]</name>
+                            <title>Сравниваем на количество товаров на странице. Ожидаем 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691879488" stop="1517691879548" status="passed">
+                    <name>Тогда вытаскиваем название наушников под номером "0" из списка</name>
+                    <title>Тогда вытаскиваем название наушников под номером "0" из списка</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691879488" stop="1517691879547" status="passed">
+                            <name>getNameEarPhone[0]</name>
+                            <title>Вытаскаваем название из списка под номером 0(отсчет с 0)</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691879548" stop="1517691879871" status="passed">
+                    <name>Тогда ищем отдельно по названию наушников</name>
+                    <title>Тогда ищем отдельно по названию наушников</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691879548" stop="1517691879871" status="passed">
+                            <name>sendKeyInputSearch</name>
+                            <title>Вводим значение в поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691879871" stop="1517691879962" status="passed">
+                    <name>И нажимаем поиск для наушников</name>
+                    <title>И нажимаем поиск для наушников</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691879872" stop="1517691879961" status="passed">
+                            <name>clickSearchButton</name>
+                            <title>Нажимаем поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691879962" stop="1517691883887" status="passed">
+                    <name>Когда переходим на первые наушники по списку</name>
+                    <title>Когда переходим на первые наушники по списку</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691879962" stop="1517691883887" status="passed">
+                            <name>clickFirstEarPhone</name>
+                            <title>переход на первые наушники</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517691883888" stop="1517691883980" status="passed">
+                    <name>Тогда проверяем на совпадение названия наушников</name>
+                    <title>Тогда проверяем на совпадение названия наушников</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517691883888" stop="1517691883979" status="passed">
+                            <name>checkProductTitle</name>
+                            <title>Проверяем на совпадаение товара</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Проверка чего то"/>
+                <label name="feature" value="Наушники"/>
+                <label name="host" value="WIN-0VHSU5RKDMC"/>
+                <label name="thread" value="6760@WIN-0VHSU5RKDMC.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Наушники"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

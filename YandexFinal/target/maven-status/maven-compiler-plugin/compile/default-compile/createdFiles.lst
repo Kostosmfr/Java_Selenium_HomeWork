@@ -1,0 +1,14 @@
+pages\AdvancedFilterPage.class
+steps\EarPhonePageSteps.class
+pages\YandexMarketBasePage.class
+util\TestProperties.class
+steps\TestSteps.class
+pages\TVPage.class
+pages\YandexMainPage.class
+util\AllureReporter.class
+steps\BaseSteps.class
+steps\YandexMarketBasePageSteps.class
+steps\AdvancedFilterPageSteps.class
+steps\TVPageSteps.class
+pages\EarPhonePage.class
+steps\YandexMainPageSteps.class
